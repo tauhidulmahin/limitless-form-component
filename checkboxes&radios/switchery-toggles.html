@@ -1,0 +1,244 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Limitless - Responsive Web Application Kit by Eugene Kopyov</title>
+
+	<!-- Global stylesheets -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
+	<link href="../global_assets/css/icons/icomoon/styles.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/bootstrap_limitless.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/layout.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/components.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/colors.min.css" rel="stylesheet" type="text/css">
+	<!-- /global stylesheets -->
+
+	<!-- Core JS files -->
+	<script src="../global_assets/js/main/jquery.min.js"></script>
+	<script src="../global_assets/js/main/bootstrap.bundle.min.js"></script>
+	<script src="../global_assets/js/plugins/loaders/blockui.min.js"></script>
+	<!-- /core JS files -->
+
+	<!-- Theme JS files -->
+	<script src="../global_assets/js/plugins/forms/styling/uniform.min.js"></script>
+	<script src="../global_assets/js/plugins/forms/styling/switchery.min.js"></script>
+	<script src="../global_assets/js/plugins/forms/styling/switch.min.js"></script>
+
+	<script src="../assets/js/app.js"></script>
+	<script src="../global_assets/js/demo_pages/form_checkboxes_radios.js"></script>
+	<!-- /theme JS files -->
+
+</head>
+
+<body>
+
+	<!-- Page content -->
+	<div class="page-content">
+
+		<!-- Main content -->
+		<div class="content-wrapper">
+
+			<!-- Content area -->
+			<div class="content">
+
+				<!-- Switchery toggles -->
+				<div class="card">
+					<div class="card-header header-elements-inline">
+						<h5 class="card-title">Switchery toggles</h5>
+						<div class="header-elements">
+							<div class="list-icons">
+		                		<a class="list-icons-item" data-action="collapse"></a>
+		                		<a class="list-icons-item" data-action="reload"></a>
+		                		<a class="list-icons-item" data-action="remove"></a>
+		                	</div>
+	                	</div>
+					</div>
+
+					<div class="card-body">
+						<div class="row">
+							<div class="col-md-6">
+								<h6 class="font-weight-semibold">Default switchers</h6>
+								<p class="mb-3">You can add as many switches as you like, as long as their corresponding checkboxes have the same class. Select them and make new instance of the Switchery class for every of them.</p>
+
+								<div class="form-check form-check-switchery">
+									<label class="form-check-label">
+										<input type="checkbox" class="form-check-input-switchery" checked data-fouc>
+										Checked switch
+									</label>
+								</div>
+
+								<div class="form-check form-check-switchery">
+									<label class="form-check-label">
+										<input type="checkbox" class="form-check-input-switchery" data-fouc>
+										Unchecked switch
+									</label>
+								</div>
+
+								<div class="form-check form-check-switchery disabled">
+									<label class="form-check-label">
+										<input type="checkbox" class="form-check-input-switchery" checked disabled data-fouc>
+										Checked disabled
+									</label>
+								</div>
+
+								<div class="form-check form-check-switchery disabled">
+									<label class="form-check-label">
+										<input type="checkbox" class="form-check-input-switchery" disabled data-fouc>
+										Unchecked disabled
+									</label>
+								</div>
+
+
+								<h6 class="font-weight-semibold pt-3">Switcher colors</h6>
+								<p class="mb-3">You can change the default color of the switch to fit your design perfectly. According to the color system, any of its color can be applied to the switchery. Custom colors are also supported.</p>
+
+								<div class="form-check form-check-switchery">
+									<label class="form-check-label">
+										<input type="checkbox" class="form-check-input-switchery-primary" checked data-fouc>
+										Switch in <span class="font-weight-semibold">primary</span> context
+									</label>
+								</div>
+
+								<div class="form-check form-check-switchery">
+									<label class="form-check-label">
+										<input type="checkbox" class="form-check-input-switchery-danger" checked data-fouc>
+										Switch in <span class="font-weight-semibold">danger</span> context
+									</label>
+								</div>
+
+								<div class="form-check form-check-switchery">
+									<label class="form-check-label">
+										<input type="checkbox" class="form-check-input-switchery-info" checked data-fouc>
+										Switch in <span class="font-weight-semibold">info</span> context
+									</label>
+								</div>
+
+								<div class="form-check form-check-switchery">
+									<label class="form-check-label">
+										<input type="checkbox" class="form-check-input-switchery-warning" checked data-fouc>
+										Switch in <span class="font-weight-semibold">warning</span> context
+									</label>
+								</div>
+
+
+								<h6 class="font-weight-semibold pt-3">Left inline</h6>
+								<p class="mb-3">Switchery component also supports default option for <strong>left</strong> and <strong>right</strong> inline alignment. Just add <code>.form-check-inline</code> class to <code>.form-check-switchery</code> container. Default alignment is <strong>left</strong>.</p>
+
+								<div class="form-check form-check-switchery form-check-inline">
+									<label class="form-check-label">
+										<input type="checkbox" class="form-check-input-switchery" checked data-fouc>
+										First input
+									</label>
+								</div>
+
+								<div class="form-check form-check-switchery form-check-inline">
+									<label class="form-check-label">
+										<input type="checkbox" class="form-check-input-switchery" checked data-fouc>
+										Second input
+									</label>
+								</div>
+							</div>
+
+							<div class="col-md-6">
+								<h6 class="font-weight-semibold pt-3 pt-md-0">Sticked to the right</h6>
+								<p class="mb-3">Sometimes it's very useful to have switches on the right side of the container. Just add <code>.form-check-right</code> class to the <code>&lt;.form-check></code> container for the very right side switcher alignment.</p>
+
+								<div class="form-check form-check-right form-check-switchery">
+									<label class="form-check-label">
+										Checked switch
+										<input type="checkbox" class="form-check-input-switchery" checked data-fouc>
+									</label>
+								</div>
+
+								<div class="form-check form-check-right form-check-switchery">
+									<label class="form-check-label">
+										Unchecked switch
+										<input type="checkbox" class="form-check-input-switchery" data-fouc>
+									</label>
+								</div>
+
+								<div class="form-check form-check-right form-check-switchery disabled">
+									<label class="form-check-label">
+										Checked disabled
+										<input type="checkbox" class="form-check-input-switchery" checked disabled data-fouc>
+									</label>
+								</div>
+
+								<div class="form-check form-check-right form-check-switchery disabled">
+									<label class="form-check-label">
+										Unchecked disabled
+										<input type="checkbox" class="form-check-input-switchery" disabled data-fouc>
+									</label>
+								</div>
+
+
+								<h6 class="font-weight-semibold pt-3">Multiple labels</h6>
+								<p class="mb-3">Switchery can be used with single label or with multiple labels. To use, add <code>.switchery-double</code> class to the container. All sizing options are available for this switchery type as well.</p>
+
+								<div class="form-check form-check-switchery form-check-switchery-double">
+									<label class="form-check-label">
+										Enable
+										<input type="checkbox" class="form-check-input-switchery" checked data-fouc>
+										Disable
+									</label>
+								</div>
+
+								<div class="form-check form-check-switchery form-check-switchery-double">
+									<label class="form-check-label">
+										Enable
+										<input type="checkbox" class="form-check-input-switchery" data-fouc>
+										Disable
+									</label>
+								</div>
+
+								<div class="form-check form-check-switchery form-check-switchery-double disabled">
+									<label class="form-check-label">
+										Enable
+										<input type="checkbox" class="form-check-input-switchery" checked disabled data-fouc>
+										Disable
+									</label>
+								</div>
+
+								<div class="form-check form-check-switchery form-check-switchery-double disabled">
+									<label class="form-check-label">
+										Enable
+										<input type="checkbox" class="form-check-input-switchery" disabled data-fouc>
+										Disable
+									</label>
+								</div>
+
+
+								<h6 class="font-weight-semibold pt-3">Right inline</h6>
+								<p class="mb-3">You can also reverse inline alignment to <code>right</code> - just add default <code>.form-check-right</code> to any <code>.form-check</code> container and all inputs will be adjusted automatically.</p>
+
+								<div class="form-check form-check-switchery form-check-inline form-check-right">
+									<label class="form-check-label">
+										<input type="checkbox" class="form-check-input-switchery" checked data-fouc>
+										First input
+									</label>
+								</div>
+
+								<div class="form-check form-check-switchery form-check-inline form-check-right">
+									<label class="form-check-label">
+										<input type="checkbox" class="form-check-input-switchery" checked data-fouc>
+										Second input
+									</label>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /switchery toggles -->
+            </div>
+		</div>
+		<!-- /content wrapper -->
+
+	</div>
+	<!-- /page container -->
+
+</body>
+</html>

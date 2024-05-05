@@ -1,0 +1,244 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Limitless - Responsive Web Application Kit by Eugene Kopyov</title>
+
+	<!-- Global stylesheets -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
+	<link href="../global_assets/css/icons/icomoon/styles.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/bootstrap_limitless.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/layout.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/components.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/colors.min.css" rel="stylesheet" type="text/css">
+	<!-- /global stylesheets -->
+
+	<!-- Core JS files -->
+	<script src="../global_assets/js/main/jquery.min.js"></script>
+	<script src="../global_assets/js/main/bootstrap.bundle.min.js"></script>
+	<script src="../global_assets/js/plugins/loaders/blockui.min.js"></script>
+	<!-- /core JS files -->
+
+	<!-- Theme JS files -->
+	<script src="../global_assets/js/plugins/forms/styling/uniform.min.js"></script>
+	<script src="../global_assets/js/plugins/forms/styling/switchery.min.js"></script>
+	<script src="../global_assets/js/plugins/forms/styling/switch.min.js"></script>
+
+	<script src="../assets/js/app.js"></script>
+	<script src="../global_assets/js/demo_pages/form_checkboxes_radios.js"></script>
+	<!-- /theme JS files -->
+
+</head>
+
+<body>
+
+	<!-- Page content -->
+	<div class="page-content">
+
+		<!-- Main content -->
+		<div class="content-wrapper">
+
+			<!-- Content area -->
+			<div class="content">
+
+				<!-- Radio buttons -->
+            	<div class="card">
+					<div class="card-header header-elements-inline">
+						<h5 class="card-title">Radio buttons</h5>
+						<div class="header-elements">
+							<div class="list-icons">
+		                		<a class="list-icons-item" data-action="collapse"></a>
+		                		<a class="list-icons-item" data-action="reload"></a>
+		                		<a class="list-icons-item" data-action="remove"></a>
+		                	</div>
+	                	</div>
+					</div>
+
+                	<div class="card-body">
+        				<p class="mb-3">Radio button is an element that can be turned on and off. Radio buttons are almost always grouped together in groups. Only one radio button within the same <code>radiogroup</code> may be selected at a time. The user can switch which radio button is turned on by selecting it with the mouse or keyboard. Other radio buttons in the same group are turned off. A label, specified with the <code>label</code> attribute may be added beside the radio button.</p>
+
+        				<div class="row">
+        					<div class="col-md-6">
+								<div class="form-group">
+									<label class="font-weight-semibold">Left stacked default</label>
+									<div class="form-check">
+										<label class="form-check-label">
+											<input type="radio" class="form-check-input" name="unstyled-radio-left" checked>
+											Selected default
+										</label>
+									</div>
+
+									<div class="form-check">
+										<label class="form-check-label">
+											<input type="radio" class="form-check-input" name="unstyled-radio-left">
+											Unselected default
+										</label>
+									</div>
+
+									<div class="form-check disabled">
+										<label class="form-check-label">
+											<input type="radio" class="form-check-input" checked disabled>
+											Disabled default
+										</label>
+									</div>
+								</div>
+
+								<div class="form-group">
+									<label class="d-block font-weight-semibold">Left inline default</label>
+									<div class="form-check form-check-inline">
+										<label class="form-check-label">
+											<input type="radio" class="form-check-input" name="radio-unstyled-inline-left" checked>
+											Selected default
+										</label>
+									</div>
+
+									<div class="form-check form-check-inline">
+										<label class="form-check-label">
+											<input type="radio" class="form-check-input" name="radio-unstyled-inline-left">
+											Unselected default
+										</label>
+									</div>
+								</div>
+
+								<div class="form-group pt-2">
+									<label class="font-weight-semibold">Left stacked styled</label>
+									<div class="form-check">
+										<label class="form-check-label">
+											<input type="radio" class="form-check-input-styled" name="stacked-radio-left" checked data-fouc>
+											Selected styled
+										</label>
+									</div>
+
+									<div class="form-check">
+										<label class="form-check-label">
+											<input type="radio" class="form-check-input-styled" name="stacked-radio-left" data-fouc>
+											Unselected styled
+										</label>
+									</div>
+
+									<div class="form-check disabled">
+										<label class="form-check-label">
+											<input type="radio" class="form-check-input-styled" disabled data-fouc>
+											Disabled styled
+										</label>
+									</div>
+								</div>
+
+								<div class="form-group mb-3 mb-md-2">
+									<label class="d-block font-weight-semibold">Left inline styled</label>
+									<div class="form-check form-check-inline">
+										<label class="form-check-label">
+											<input type="radio" class="form-check-input-styled" name="radio-inline-left" checked data-fouc>
+											Selected styled
+										</label>
+									</div>
+
+									<div class="form-check form-check-inline">
+										<label class="form-check-label">
+											<input type="radio" class="form-check-input-styled" name="radio-inline-left" data-fouc>
+											Unselected styled
+										</label>
+									</div>
+								</div>
+        					</div>
+
+        					<div class="col-md-6">
+								<div class="form-group">
+									<label class="font-weight-semibold">Right stacked default</label>
+									<div class="form-check form-check-right">
+										<label class="form-check-label">
+											Selected default
+											<input type="radio" class="form-check-input" name="unstyled-radio-right" checked>
+										</label>
+									</div>
+
+									<div class="form-check form-check-right">
+										<label class="form-check-label">
+											Unselected default
+											<input type="radio" class="form-check-input" name="unstyled-radio-right">
+										</label>
+									</div>
+
+									<div class="form-check form-check-right disabled">
+										<label class="form-check-label">
+											Disabled default
+											<input type="radio" class="form-check-input" checked disabled>
+										</label>
+									</div>
+								</div>
+
+								<div class="form-group">
+									<label class="d-block font-weight-semibold">Right inline default</label>
+									<div class="form-check form-check-inline form-check-right">
+										<label class="form-check-label">
+											Selected default
+											<input type="radio" class="form-check-input" name="radio-unstyled-inline-right" checked>
+										</label>
+									</div>
+
+									<div class="form-check form-check-inline form-check-right">
+										<label class="form-check-label">
+											Unselected default
+											<input type="radio" class="form-check-input" name="radio-unstyled-inline-right">
+										</label>
+									</div>
+								</div>
+
+								<div class="form-group pt-2">
+									<label class="font-weight-semibold">Right stacked styled</label>
+									<div class="form-check form-check-right">
+										<label class="form-check-label">
+											Selected styled
+											<input type="radio" class="form-check-input-styled" name="stacked-radio-right" checked data-fouc>
+										</label>
+									</div>
+
+									<div class="form-check form-check-right">
+										<label class="form-check-label">
+											Unselected styled
+											<input type="radio" class="form-check-input-styled" name="stacked-radio-right" data-fouc>
+										</label>
+									</div>
+
+									<div class="form-check form-check-right disabled">
+										<label class="form-check-label">
+											Disabled styled
+											<input type="radio" class="form-check-input-styled" checked disabled data-fouc>
+										</label>
+									</div>
+								</div>
+
+								<div class="form-group mb-3 mb-md-2">
+									<label class="d-block font-weight-semibold">Right inline styled</label>
+									<div class="form-check form-check-inline form-check-right">
+										<label class="form-check-label">
+											Selected styled
+											<input type="radio" class="form-check-input-styled" name="radio-inline-right" checked data-fouc>
+										</label>
+									</div>
+
+									<div class="form-check form-check-inline form-check-right">
+										<label class="form-check-label">
+											Unselected styled
+											<input type="radio" class="form-check-input-styled" name="radio-inline-right" data-fouc>
+										</label>
+									</div>
+								</div>
+        					</div>
+        				</div>
+					</div>
+				</div>
+				<!-- /radio buttons -->
+            </div>
+		</div>
+		<!-- /content wrapper -->
+
+	</div>
+	<!-- /page container -->
+
+</body>
+</html>

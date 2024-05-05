@@ -1,0 +1,205 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Limitless - Responsive Web Application Kit by Eugene Kopyov</title>
+
+	<!-- Global stylesheets -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
+	<link href="../global_assets/css/icons/icomoon/styles.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/bootstrap_limitless.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/layout.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/components.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/colors.min.css" rel="stylesheet" type="text/css">
+	<!-- /global stylesheets -->
+
+	<!-- Core JS files -->
+	<script src="../global_assets/js/main/jquery.min.js"></script>
+	<script src="../global_assets/js/main/bootstrap.bundle.min.js"></script>
+	<script src="../global_assets/js/plugins/loaders/blockui.min.js"></script>
+	<!-- /core JS files -->
+
+	<!-- Theme JS files -->
+	<script src="../global_assets/js/plugins/forms/styling/uniform.min.js"></script>
+	<script src="../global_assets/js/plugins/forms/styling/switchery.min.js"></script>
+	<script src="../global_assets/js/plugins/forms/styling/switch.min.js"></script>
+
+	<script src="../assets/js/app.js"></script>
+	<script src="../global_assets/js/demo_pages/form_checkboxes_radios.js"></script>
+	<!-- /theme JS files -->
+
+</head>
+
+<body>
+
+	<!-- Page content -->
+	<div class="page-content">
+
+		<!-- Main content -->
+		<div class="content-wrapper">
+
+			<!-- Content area -->
+			<div class="content">
+
+                <!-- Custom Bootstrap inputs -->
+            	<div class="card">
+					<div class="card-header header-elements-inline">
+						<h5 class="card-title">Custom Bootstrap inputs</h5>
+						<div class="header-elements">
+							<div class="list-icons">
+		                		<a class="list-icons-item" data-action="collapse"></a>
+		                		<a class="list-icons-item" data-action="reload"></a>
+		                		<a class="list-icons-item" data-action="remove"></a>
+		                	</div>
+	                	</div>
+					</div>
+
+                	<div class="card-body">
+        				<p class="mb-3">For even more customization and cross browser consistency, use our completely custom form elements to replace the browser defaults. They’re built on top of semantic and accessible markup, so they’re solid replacements for any default form control. Custom checkboxes can also utilize the <code>:indeterminate</code> pseudo class when manually set via JavaScript (there is no available HTML attribute for specifying it).</p>
+
+        				<div class="row">
+        					<div class="col-md-6">
+								<div class="form-group">
+									<label class="d-block font-weight-semibold">Left stacked checkboxes</label>
+									<div class="custom-control custom-checkbox">
+										<input type="checkbox" class="custom-control-input" id="custom_checkbox_stacked_unchecked" checked>
+										<label class="custom-control-label" for="custom_checkbox_stacked_unchecked">Custom checked</label>
+									</div>
+
+									<div class="custom-control custom-checkbox">
+										<input type="checkbox" class="custom-control-input" id="custom_checkbox_stacked_checked">
+										<label class="custom-control-label" for="custom_checkbox_stacked_checked">Custom unchecked</label>
+									</div>
+
+									<div class="custom-control custom-checkbox">
+										<input type="checkbox" class="custom-control-input" id="custom_checkbox_stacked_checked_disabled" checked disabled>
+										<label class="custom-control-label" for="custom_checkbox_stacked_checked_disabled">Custom checked disabled</label>
+									</div>
+								</div>
+
+								<div class="form-group">
+									<label class="d-block font-weight-semibold">Left inline checkboxes</label>
+									<div class="custom-control custom-checkbox custom-control-inline">
+										<input type="checkbox" class="custom-control-input" id="custom_checkbox_inline_unchecked" checked>
+										<label class="custom-control-label" for="custom_checkbox_inline_unchecked">Custom checked</label>
+									</div>
+
+									<div class="custom-control custom-checkbox custom-control-inline">
+										<input type="checkbox" class="custom-control-input" id="custom_checkbox_inline_checked">
+										<label class="custom-control-label" for="custom_checkbox_inline_checked">Custom unchecked</label>
+									</div>
+								</div>
+
+								<div class="form-group pt-2">
+									<label class="d-block font-weight-semibold">Left stacked radios</label>
+									<div class="custom-control custom-radio">
+										<input type="radio" class="custom-control-input" name="custom-stacked-radio" id="custom_radio_stacked_unchecked" checked>
+										<label class="custom-control-label" for="custom_radio_stacked_unchecked">Custom selected</label>
+									</div>
+
+									<div class="custom-control custom-radio">
+										<input type="radio" class="custom-control-input" name="custom-stacked-radio" id="custom_radio_stacked_checked">
+										<label class="custom-control-label" for="custom_radio_stacked_checked">Custom unselected</label>
+									</div>
+
+									<div class="custom-control custom-radio">
+										<input type="radio" class="custom-control-input" id="custom_radio_stacked_checked_disabled" checked disabled>
+										<label class="custom-control-label" for="custom_radio_stacked_checked_disabled">Custom selected disabled</label>
+									</div>
+								</div>
+
+								<div class="form-group mb-3 mb-md-2">
+									<label class="d-block font-weight-semibold">Left inline radios</label>
+									<div class="custom-control custom-radio custom-control-inline">
+										<input type="radio" class="custom-control-input" name="custom-inline-radio" id="custom_radio_inline_unchecked" checked>
+										<label class="custom-control-label" for="custom_radio_inline_unchecked">Custom selected</label>
+									</div>
+
+									<div class="custom-control custom-radio custom-control-inline">
+										<input type="radio" class="custom-control-input" name="custom-inline-radio" id="custom_radio_inline_checked">
+										<label class="custom-control-label" for="custom_radio_inline_checked">Custom unselected</label>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-6">
+								<div class="form-group">
+									<label class="d-block font-weight-semibold">Right stacked checkboxes</label>
+									<div class="custom-control custom-control-right custom-checkbox">
+										<input type="checkbox" class="custom-control-input" id="custom_checkbox_stacked_right_checked" checked>
+										<label class="custom-control-label position-static" for="custom_checkbox_stacked_right_checked">Custom checked</label>
+									</div>
+
+									<div class="custom-control custom-control-right custom-checkbox">
+										<input type="checkbox" class="custom-control-input" id="custom_checkbox_stacked_right_unchecked">
+										<label class="custom-control-label position-static" for="custom_checkbox_stacked_right_unchecked">Custom unchecked</label>
+									</div>
+
+									<div class="custom-control custom-control-right custom-checkbox">
+										<input type="checkbox" class="custom-control-input" id="custom_checkbox_stacked_right_checked_disabled" checked disabled>
+										<label class="custom-control-label position-static" for="custom_checkbox_stacked_right_checked_disabled">Custom checked disabled</label>
+									</div>
+								</div>
+
+								<div class="form-group">
+									<label class="d-block font-weight-semibold">Right inline checkboxes</label>
+									<div class="custom-control custom-control-right custom-checkbox custom-control-inline">
+										<input type="checkbox" class="custom-control-input" id="custom_checkbox_inline_right_checked" checked>
+										<label class="custom-control-label position-static" for="custom_checkbox_inline_right_checked">Custom checked</label>
+									</div>
+
+									<div class="custom-control custom-control-right custom-checkbox custom-control-inline">
+										<input type="checkbox" class="custom-control-input" id="custom_checkbox_inline_right_unchecked">
+										<label class="custom-control-label position-static" for="custom_checkbox_inline_right_unchecked">Custom unchecked</label>
+									</div>
+								</div>
+
+								<div class="form-group pt-2">
+									<label class="d-block font-weight-semibold">Right stacked radios</label>
+									<div class="custom-control custom-control-right custom-radio">
+										<input type="radio" class="custom-control-input" name="custom-stacked-radio-right" id="custom_radio_stacked_right_checked" checked>
+										<label class="custom-control-label position-static" for="custom_radio_stacked_right_checked">Custom selected</label>
+									</div>
+
+									<div class="custom-control custom-control-right custom-radio">
+										<input type="radio" class="custom-control-input" name="custom-stacked-radio-right" id="custom_radio_stacked_right_unchecked">
+										<label class="custom-control-label position-static" for="custom_radio_stacked_right_unchecked">Custom unselected</label>
+									</div>
+
+									<div class="custom-control custom-control-right custom-radio">
+										<input type="radio" class="custom-control-input" id="custom_radio_stacked_right_checked_disabled" checked disabled>
+										<label class="custom-control-label position-static" for="custom_radio_stacked_right_checked_disabled">Custom selected disabled</label>
+									</div>
+								</div>
+
+								<div class="form-group mb-3 mb-md-2">
+									<label class="d-block font-weight-semibold">Right stacked radios</label>
+									<div class="custom-control custom-control-right custom-radio custom-control-inline">
+										<input type="radio" class="custom-control-input" name="custom-inline-radio-right" id="custom_radio_inline_right_checked" checked>
+										<label class="custom-control-label position-static" for="custom_radio_inline_right_checked">Custom selected</label>
+									</div>
+
+									<div class="custom-control custom-control-right custom-radio custom-control-inline">
+										<input type="radio" class="custom-control-input" name="custom-inline-radio-right" id="custom_radio_inline_right_unchecked">
+										<label class="custom-control-label position-static" for="custom_radio_inline_right_unchecked">Custom unselected</label>
+									</div>
+								</div>
+							</div>
+						</div>
+
+    				</div>
+				</div>
+				<!-- /custom Bootstrap inputs -->
+            </div>
+		</div>
+		<!-- /content wrapper -->
+
+	</div>
+	<!-- /page container -->
+
+</body>
+</html>
