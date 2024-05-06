@@ -1,0 +1,217 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Limitless - Responsive Web Application Kit by Eugene Kopyov</title>
+
+	<!-- Global stylesheets -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
+	<link href="../global_assets/css/icons/icomoon/styles.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/bootstrap_limitless.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/layout.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/components.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/colors.min.css" rel="stylesheet" type="text/css">
+	<!-- /global stylesheets -->
+
+	<!-- Core JS files -->
+	<script src="../global_assets/js/main/jquery.min.js"></script>
+	<script src="../global_assets/js/main/bootstrap.bundle.min.js"></script>
+	<script src="../global_assets/js/plugins/loaders/blockui.min.js"></script>
+	<!-- /core JS files -->
+
+	<!-- Theme JS files -->
+	<script src="../global_assets/js/plugins/extensions/jquery_ui/interactions.min.js"></script>
+	<script src="../global_assets/js/plugins/forms/selects/select2.min.js"></script>
+
+	<script src="../assets/js/app.js"></script>
+	<script src="../global_assets/js/demo_pages/form_select2.js"></script>
+	<!-- /theme JS files -->
+
+</head>
+
+<body>
+
+	<!-- Page content -->
+	<div class="page-content">
+
+
+		<!-- Main content -->
+		<div class="content-wrapper">
+
+			<!-- Content area -->
+			<div class="content">
+
+				<!-- Select2 sizing -->
+				<div class="mb-3 pt-2">
+					<h6 class="mb-0 font-weight-semibold">
+						Select sizing
+					</h6>
+					<span class="text-muted d-block">Single and multiple selects sizing</span>
+				</div>
+
+				<div class="row">
+					<div class="col-md-6">
+						<div class="card">
+							<div class="card-header header-elements-inline">
+								<h5 class="card-title">Single select sizing</h5>
+								<div class="header-elements">
+									<div class="list-icons">
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="reload"></a>
+				                		<a class="list-icons-item" data-action="remove"></a>
+				                	</div>
+			                	</div>
+							</div>
+
+							<div class="card-body">
+								<div class="form-group">
+									<label>Large select</label>
+									<select data-placeholder="Select a State..." class="form-control form-control-lg select" data-container-css-class="select-lg" data-fouc>
+										<option></option>
+										<optgroup label="Mountain Time Zone">
+											<option value="AZ">Arizona</option>
+											<option value="CO">Colorado</option>
+											<option value="ID">Idaho</option>
+											<option value="WY">Wyoming</option>
+										</optgroup>
+										<optgroup label="Central Time Zone">
+											<option value="AL">Alabama</option>
+											<option value="IA">Iowa</option>
+											<option value="KS">Kansas</option>
+											<option value="KY">Kentucky</option>
+										</optgroup>
+									</select>
+								</div>
+
+								<div class="form-group">
+									<label>Default select</label>
+									<select data-placeholder="Select a State..." class="form-control select" data-fouc>
+										<option></option>
+										<optgroup label="Mountain Time Zone">
+											<option value="AZ">Arizona</option>
+											<option value="CO">Colorado</option>
+											<option value="ID">Idaho</option>
+											<option value="WY">Wyoming</option>
+										</optgroup>
+										<optgroup label="Central Time Zone">
+											<option value="AL">Alabama</option>
+											<option value="IA">Iowa</option>
+											<option value="KS">Kansas</option>
+											<option value="KY">Kentucky</option>
+										</optgroup>
+									</select>
+								</div>
+
+								<div class="form-group">
+									<label>Small select</label>
+									<select data-placeholder="Select a State..." class="form-control form-control-sm select" data-container-css-class="select-sm" data-fouc>
+										<option></option>
+										<optgroup label="Mountain Time Zone">
+											<option value="AZ">Arizona</option>
+											<option value="CO">Colorado</option>
+											<option value="ID">Idaho</option>
+											<option value="WY">Wyoming</option>
+										</optgroup>
+										<optgroup label="Central Time Zone">
+											<option value="AL">Alabama</option>
+											<option value="IA">Iowa</option>
+											<option value="KS">Kansas</option>
+											<option value="KY">Kentucky</option>
+										</optgroup>
+									</select>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6">
+						<div class="card">
+							<div class="card-header header-elements-inline">
+								<h5 class="card-title">Multiple select sizing</h5>
+								<div class="header-elements">
+									<div class="list-icons">
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="reload"></a>
+				                		<a class="list-icons-item" data-action="remove"></a>
+				                	</div>
+			                	</div>
+							</div>
+
+							<div class="card-body">
+								<div class="form-group">
+									<label>Large select</label>
+									<select multiple="multiple" data-placeholder="Select a State..." class="form-control form-control-lg select" data-container-css-class="select-lg" data-fouc>
+										<option></option>
+										<optgroup label="Mountain Time Zone">
+											<option value="AZ">Arizona</option>
+											<option value="CO">Colorado</option>
+											<option value="ID" selected>Idaho</option>
+											<option value="WY">Wyoming</option>
+										</optgroup>
+										<optgroup label="Central Time Zone">
+											<option value="AL">Alabama</option>
+											<option value="IA" selected>Iowa</option>
+											<option value="KS">Kansas</option>
+											<option value="KY">Kentucky</option>
+										</optgroup>
+									</select>
+								</div>
+
+								<div class="form-group">
+									<label>Default select</label>
+									<select multiple="multiple" data-placeholder="Select a State..." class="form-control select" data-fouc>
+										<option></option>
+										<optgroup label="Mountain Time Zone">
+											<option value="AZ" selected>Arizona</option>
+											<option value="CO">Colorado</option>
+											<option value="ID">Idaho</option>
+											<option value="WY">Wyoming</option>
+										</optgroup>
+										<optgroup label="Central Time Zone">
+											<option value="AL" selected>Alabama</option>
+											<option value="IA">Iowa</option>
+											<option value="KS">Kansas</option>
+											<option value="KY">Kentucky</option>
+										</optgroup>
+									</select>
+								</div>
+
+								<div class="form-group">
+									<label>Small select</label>
+									<select multiple="multiple" data-placeholder="Select a State..." class="form-control form-control-sm select" data-container-css-class="select-sm" data-fouc>
+										<option></option>
+										<optgroup label="Mountain Time Zone">
+											<option value="AZ">Arizona</option>
+											<option value="CO">Colorado</option>
+											<option value="ID">Idaho</option>
+											<option value="WY" selected>Wyoming</option>
+										</optgroup>
+										<optgroup label="Central Time Zone">
+											<option value="AL">Alabama</option>
+											<option value="IA">Iowa</option>
+											<option value="KS">Kansas</option>
+											<option value="KY" selected>Kentucky</option>
+										</optgroup>
+									</select>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /select2 sizing -->      
+
+			</div>
+			<!-- /content area -->
+
+		</div>
+		<!-- /main content -->
+
+	</div>
+	<!-- /page content -->
+
+</body>
+</html>
