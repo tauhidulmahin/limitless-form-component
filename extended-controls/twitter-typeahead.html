@@ -1,0 +1,201 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Limitless - Responsive Web Application Kit by Eugene Kopyov</title>
+
+	<!-- Global stylesheets -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
+	<link href="../global_assets/css/icons/icomoon/styles.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/bootstrap_limitless.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/layout.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/components.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/colors.min.css" rel="stylesheet" type="text/css">
+	<!-- /global stylesheets -->
+
+	<!-- Core JS files -->
+	<script src="../global_assets/js/main/jquery.min.js"></script>
+	<script src="../global_assets/js/main/bootstrap.bundle.min.js"></script>
+	<script src="../global_assets/js/plugins/loaders/blockui.min.js"></script>
+	<!-- /core JS files -->
+
+	<!-- Theme JS files -->
+	<script src="../global_assets/js/plugins/forms/inputs/inputmask.js"></script>
+	<script src="../global_assets/js/plugins/forms/styling/uniform.min.js"></script>
+	<script src="../global_assets/js/plugins/forms/inputs/autosize.min.js"></script>
+	<script src="../global_assets/js/plugins/forms/inputs/formatter.min.js"></script>
+	<script src="../global_assets/js/plugins/forms/inputs/typeahead/typeahead.bundle.min.js"></script>
+	<script src="../global_assets/js/plugins/forms/inputs/typeahead/handlebars.min.js"></script>
+	<script src="../global_assets/js/plugins/forms/inputs/passy.js"></script>
+	<script src="../global_assets/js/plugins/forms/inputs/maxlength.min.js"></script>
+
+	<script src="../assets/js/app.js"></script>
+	<script src="../global_assets/js/demo_pages/form_controls_extended.js"></script>
+	<!-- /theme JS files -->
+
+</head>
+
+<body>
+
+	<!-- Page content -->
+	<div class="page-content">
+
+
+		<!-- Main content -->
+		<div class="content-wrapper">
+
+
+			<!-- Content area -->
+			<div class="content">
+
+				<!-- Typeahead -->
+				<div class="card">
+					<div class="card-header header-elements-inline">
+						<h5 class="card-title">Twitter typeahead</h5>
+						<div class="header-elements">
+							<div class="list-icons">
+		                		<a class="list-icons-item" data-action="collapse"></a>
+		                		<a class="list-icons-item" data-action="reload"></a>
+		                		<a class="list-icons-item" data-action="remove"></a>
+		                	</div>
+	                	</div>
+					</div>
+
+					<div class="card-body">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="mb-4">
+									<h6 class="font-weight-semibold">Basic usage</h6>
+									<p class="mb-2">When initializing a typeahead, you pass the plugin method one or more datasets. The source of a dataset is responsible for computing a set of suggestions for a given query.</p>
+									<input type="text" class="form-control typeahead-basic" placeholder="States of USA">
+								</div>
+
+								<div class="mb-4">
+									<h6 class="font-weight-semibold">Bloodhound engine</h6>
+									<p class="mb-2">For more advanced use cases, rather than implementing the source for your dataset yourself, you can take advantage of <code>Bloodhound</code>, the <code>typeahead.js</code> suggestion engine.</p>
+									<input type="text" class="form-control typeahead-bloodhound" placeholder="States of USA">
+								</div>
+
+								<div class="mb-4">
+									<h6 class="font-weight-semibold">Prefetched data</h6>
+									<p class="mb-2">Prefetched data is fetched and processed on initialization. If the browser supports local storage, the processed data will be cached there to prevent additional network requests on subsequent page loads.</p>
+									<input type="text" class="form-control typeahead-prefetched" placeholder="Countries">
+								</div>
+
+								<div class="mb-3">
+									<h6 class="font-weight-semibold">Remote data</h6>
+									<p class="mb-2">Remote data is only used when the data provided by local and prefetch is insufficient. In order to prevent an obscene number of requests being made to the remote endpoint, requests are rate-limited.</p>
+									<input type="text" class="form-control typeahead-remote" placeholder="Oscar winners for Best Picture">
+								</div>
+							</div>
+
+							<div class="col-md-6">
+								<div class="mb-4">
+									<h6 class="font-weight-semibold">Custom templates</h6>
+									<p class="mb-2">Custom templates give you full control over how suggestions get rendered making it easy to customize the look and feel of your typeahead. Requires <code>Handlebars.js</code> extension for compilation.</p>
+									<input type="text" class="form-control typeahead-custom-templates" placeholder="Oscar winners for Best Picture">
+								</div>
+
+								<div class="mb-4">
+									<h6 class="font-weight-semibold">Multiple datasets</h6>
+									<p class="mb-2">Multiple datasets give you visually separated sets of data inside Dropdown menu with custom titles, managed in <code>templates</code> option. This looks like a <code>&lt;optgroup></code> titles in selects.</p>
+									<input type="text" class="form-control typeahead-multiple-datasets" placeholder="NBA and NHL teams">
+								</div>
+
+								<div class="mb-4">
+									<h6 class="font-weight-semibold">Dropdown height</h6>
+									<p class="mb-2">To change the height of your dropdown menu, just wrap your input in some div with custom css styles and change necessary css properties or change it in css directly.</p>
+									<div class="typeahead-scrollable">
+										<input type="text" class="form-control typeahead-scrollable-menu" placeholder="Countries">
+									</div>
+								</div>
+
+								<div class="mb-3">
+									<h6 class="font-weight-semibold">RTL support</h6>
+									<p class="mb-2">Twitter Typeahead supports <code>RTL</code> direction. Wrap your input in any div with <code>text-align: right;</code> property and add <code>dir="rtl"</code> to your input, now your dropdown menu is right aligned.</p>
+									<input type="text" class="form-control typeahead-rtl-support" dir="rtl" placeholder="نعم">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /typeahead -->
+
+
+				
+
+
+				<!-- Bootstrap maxlength -->
+				<div class="card">
+					<div class="card-header header-elements-inline">
+						<h5 class="card-title">Bootstrap maxlength</h5>
+						<div class="header-elements">
+							<div class="list-icons">
+		                		<a class="list-icons-item" data-action="collapse"></a>
+		                		<a class="list-icons-item" data-action="reload"></a>
+		                		<a class="list-icons-item" data-action="remove"></a>
+		                	</div>
+	                	</div>
+					</div>
+
+					<div class="card-body">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="mb-4">
+									<h6 class="font-weight-semibold">Basic example</h6>
+									<p class="mb-2">Basic example of maxlength plugin. The badge will show up right below the input by default when the remaining chars are 10 or less. This is a default value and position.</p>
+									<input type="text" class="form-control maxlength" maxlength="20" placeholder="Type 10 characters...">
+								</div>
+
+								<div class="mb-4">
+									<h6 class="font-weight-semibold">Label position</h6>
+									<p class="mb-2">The field counter can be positioned at the top, bottom, left or right via <code>placement</code> option. You can also place the maxlength indicator on the corners: bottom-right, top-right, top-left, bottom-left and centered-right.</p>
+									<input type="text" class="form-control maxlength-badge-position" maxlength="20" placeholder="Centered right position">
+								</div>
+
+								<div class="mb-3">
+									<h6 class="font-weight-semibold">Full featured</h6>
+									<p class="mb-2">This is a complete example where all the options configured for the bootstrap-maxlength counter are setted. <strong>Please note:</strong> if the <code>alwaysShow</code> option is enabled, the <code>threshold</code> option is ignored.</p>
+									<input type="text" class="form-control maxlength-options" maxlength="20" placeholder="Always visible with custom text">
+								</div>
+							</div>
+
+							<div class="col-md-6">
+								<div class="mb-4">
+									<h6 class="font-weight-semibold">Change the threshold value</h6>
+									<p class="mb-2">Do you want the badge to show up when there are 20 chars or less? Use the <code>threshold</code> option. In this example badge appears when the remaining chars are <code>15</code> or less.</p>
+									<input type="text" class="form-control maxlength-threshold" maxlength="20" placeholder="Type 5 characters...">
+								</div>
+
+								<div class="mb-4">
+									<h6 class="font-weight-semibold">Custom options</h6>
+									<p class="mb-2">Example with custom options. All options can be mixed: here badge will show up after entering 10 characters, badge has different color and shows up after the limit is reached.</p>
+									<input type="text" class="form-control maxlength-custom" maxlength="20" placeholder="With Primary and Danger badges">
+								</div>
+
+								<div class="mb-3">
+									<h6 class="font-weight-semibold">Textarea example</h6>
+									<p class="mb-2">Bootstrap maxlength supports textarea as well as inputs. Even on old IE. Maxlength, attached to the textarea supports all available options and settings by default.</p>
+									<textarea rows="3" cols="3" maxlength="225" class="form-control maxlength-textarea" placeholder="This textarea has a limit of 225 chars."></textarea>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /bootstrap maxlength -->
+
+			</div>
+			<!-- /content area -->
+
+		</div>
+		<!-- /content wrapper -->
+
+	</div>
+	<!-- /page content -->
+
+</body>
+</html>
