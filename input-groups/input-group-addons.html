@@ -1,0 +1,286 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Limitless - Responsive Web Application Kit by Eugene Kopyov</title>
+
+	<!-- Global stylesheets -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
+	<link href="../global_assets/css/icons/icomoon/styles.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/bootstrap_limitless.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/layout.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/components.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/colors.min.css" rel="stylesheet" type="text/css">
+	<!-- /global stylesheets -->
+
+	<!-- Core JS files -->
+	<script src="../global_assets/js/main/jquery.min.js"></script>
+	<script src="../global_assets/js/main/bootstrap.bundle.min.js"></script>
+	<script src="../global_assets/js/plugins/loaders/blockui.min.js"></script>
+	<!-- /core JS files -->
+
+	<!-- Theme JS files -->
+	<script src="../global_assets/js/plugins/forms/styling/uniform.min.js"></script>
+	<script src="../global_assets/js/plugins/forms/styling/switchery.min.js"></script>
+	<script src="../global_assets/js/plugins/forms/inputs/touchspin.min.js"></script>
+
+	<script src="../assets/js/app.js"></script>
+	<script src="../global_assets/js/demo_pages/form_input_groups.js"></script>
+	<!-- /theme JS files -->
+
+</head>
+
+<body>
+
+	<!-- Page content -->
+	<div class="page-content">
+
+		<!-- Main content -->
+		<div class="content-wrapper">
+
+
+			<!-- Content area -->
+			<div class="content">
+
+				<!-- Input group addons -->
+				<div class="card">
+					<div class="card-header header-elements-inline">
+						<h5 class="card-title">Input group addons</h5>
+						<div class="header-elements">
+							<div class="list-icons">
+		                		<a class="list-icons-item" data-action="collapse"></a>
+		                		<a class="list-icons-item" data-action="reload"></a>
+		                		<a class="list-icons-item" data-action="remove"></a>
+		                	</div>
+	                	</div>
+					</div>
+
+					<div class="card-body">
+						<p class="mb-4">Extend form controls by adding text or buttons before, after, or on both sides of any text-based <code>&lt;input></code>. Use <code>.input-group</code> with an <code>.input-group-prepend</code> to prepend or <code>.input-group-append</code> to append elements to a single <code>.form-control</code>. Place one add-on or button on either side of an input. You may also place one on both sides of an input. While multiple <code>&lt;input></code>s are supported visually, validation styles are only available for input groups with a single <code>&lt;input></code>.</p>
+
+						<form action="#">
+							<fieldset class="mb-3">
+								<legend class="text-uppercase font-size-sm font-weight-bold">Text addon</legend>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Left text addon</label>
+									<div class="col-lg-10">
+										<div class="input-group">
+											<span class="input-group-prepend">
+												<span class="input-group-text">@</span>
+											</span>
+											<input type="text" class="form-control" placeholder="Left addon">
+										</div>
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Multiple left addons</label>
+									<div class="col-lg-10">
+										<div class="input-group">
+											<span class="input-group-prepend">
+												<span class="input-group-text">$</span>
+												<span class="input-group-text">0.00</span>
+											</span>
+											<input type="text" class="form-control" placeholder="Multiple left addons">
+										</div>
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Right text addon</label>
+									<div class="col-lg-10">
+										<div class="input-group">
+											<input type="text" class="form-control" placeholder="Right addon">
+											<span class="input-group-append">
+												<span class="input-group-text">%</span>
+											</span>
+										</div>
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Multiple right addons</label>
+									<div class="col-lg-10">
+										<div class="input-group">
+											<input type="text" class="form-control" placeholder="Multiple right addons">
+											<span class="input-group-append">
+												<span class="input-group-text">$</span>
+												<span class="input-group-text">0.00</span>
+											</span>
+										</div>
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Left and right text addons</label>
+									<div class="col-lg-10">
+										<div class="input-group">
+											<span class="input-group-prepend">
+												<span class="input-group-text">$</span>
+											</span>
+											<input type="text" class="form-control" placeholder="Left and right addons">
+											<span class="input-group-append">
+												<span class="input-group-text">.00</span>
+											</span>
+										</div>
+									</div>
+								</div>
+							</fieldset>
+
+							<fieldset class="mb-3">
+								<legend class="text-uppercase font-size-sm font-weight-bold">Icon addon</legend>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Left icon addon</label>
+									<div class="col-lg-10">
+										<div class="input-group">
+											<span class="input-group-prepend">
+												<span class="input-group-text"><i class="icon-user"></i></span>
+											</span>
+											<input type="text" class="form-control" placeholder="Left icon">
+										</div>
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Right icon addon</label>
+									<div class="col-lg-10">
+										<div class="input-group">
+											<input type="text" class="form-control" placeholder="Right icon">
+											<span class="input-group-append">
+												<span class="input-group-text"><i class="icon-user"></i></span>
+											</span>
+										</div>
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Left and right icon addons</label>
+									<div class="col-lg-10">
+										<div class="input-group">
+											<span class="input-group-prepend">
+												<span class="input-group-text"><i class="icon-menu6"></i></span>
+											</span>
+											<input type="text" class="form-control" placeholder="Left and right icons">
+											<span class="input-group-append">
+												<span class="input-group-text"><i class="icon-inbox"></i></span>
+											</span>
+										</div>
+									</div>
+								</div>
+							</fieldset>
+
+							<fieldset class="mb-3">
+								<legend class="text-uppercase font-size-sm font-weight-bold">Spinner addon</legend>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Left spinner addon</label>
+									<div class="col-lg-10">
+										<div class="input-group">
+											<span class="input-group-prepend">
+												<span class="input-group-text"><i class="icon-spinner2 spinner"></i></span>
+											</span>
+											<input type="text" class="form-control" placeholder="Left spinner">
+										</div>
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Right spinner addon</label>
+									<div class="col-lg-10">
+										<div class="input-group">
+											<input type="text" class="form-control" placeholder="Right spinner">
+											<span class="input-group-append">
+												<span class="input-group-text"><i class="icon-spinner2 spinner"></i></span>
+											</span>
+										</div>
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Left and right spinner addons</label>
+									<div class="col-lg-10">
+										<div class="input-group">
+											<span class="input-group-prepend">
+												<span class="input-group-text"><i class="icon-spinner2 spinner"></i></span>
+											</span>
+											<input type="text" class="form-control" placeholder="Left and right spinners">
+											<span class="input-group-append">
+												<span class="input-group-text"><i class="icon-spinner9 spinner"></i></span>
+											</span>
+										</div>
+									</div>
+								</div>
+							</fieldset>
+
+							<fieldset>
+								<legend class="text-uppercase font-size-sm font-weight-bold">Color options</legend>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Contextual class</label>
+									<div class="col-lg-10">
+										<div class="input-group">
+											<span class="input-group-prepend">
+												<span class="input-group-text bg-primary border-primary text-white">
+													<i class="icon-pin-alt"></i>
+												</span>
+											</span>
+											<input type="text" class="form-control border-left-0" placeholder="Primary addon">
+										</div>
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Custom color class</label>
+									<div class="col-lg-10">
+										<div class="input-group">
+											<input type="text" class="form-control border-right-0" placeholder="Pink addon">
+											<span class="input-group-append">
+												<span class="input-group-text bg-pink border-pink text-white">
+													<i class="icon-help"></i>
+												</span>
+											</span>
+										</div>
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Color everything</label>
+									<div class="col-lg-10">
+										<div class="input-group">
+											<span class="input-group-prepend">
+												<span class="input-group-text bg-slate-700 border-slate-700 text-white">
+													<i class="icon-lock2"></i>
+												</span>
+											</span>
+											<input type="text" class="form-control bg-slate text-white border-transparent" placeholder="Solid background color">
+											<span class="input-group-append">
+												<span class="input-group-text bg-slate-700 border-slate-700 text-white">
+													<i class="icon-help"></i>
+												</span>
+											</span>
+										</div>
+									</div>
+								</div>
+							</fieldset>
+						</form>
+					</div>
+				</div>
+				<!-- /input group addons -->
+
+			</div>
+			<!-- /content area -->
+
+		</div>
+		<!-- /content wrapper -->
+
+	</div>
+	<!-- /page content -->
+
+</body>
+</html>

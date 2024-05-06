@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Limitless - Responsive Web Application Kit by Eugene Kopyov</title>
+
+	<!-- Global stylesheets -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
+	<link href="../global_assets/css/icons/icomoon/styles.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/bootstrap_limitless.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/layout.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/components.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/colors.min.css" rel="stylesheet" type="text/css">
+	<!-- /global stylesheets -->
+
+	<!-- Core JS files -->
+	<script src="../global_assets/js/main/jquery.min.js"></script>
+	<script src="../global_assets/js/main/bootstrap.bundle.min.js"></script>
+	<script src="../global_assets/js/plugins/loaders/blockui.min.js"></script>
+	<!-- /core JS files -->
+
+	<!-- Theme JS files -->
+	<script src="../global_assets/js/plugins/forms/styling/uniform.min.js"></script>
+	<script src="../global_assets/js/plugins/forms/styling/switchery.min.js"></script>
+	<script src="../global_assets/js/plugins/forms/inputs/touchspin.min.js"></script>
+
+	<script src="../assets/js/app.js"></script>
+	<script src="../global_assets/js/demo_pages/form_input_groups.js"></script>
+	<!-- /theme JS files -->
+
+</head>
+
+<body>
+
+	<!-- Page content -->
+	<div class="page-content">
+
+		<!-- Main content -->
+		<div class="content-wrapper">
+
+
+			<!-- Content area -->
+			<div class="content">
+
+                <!-- Touchspin spinners -->
+				<div class="mb-3">
+					<h6 class="mb-0 font-weight-semibold">
+						Touchspin spinners
+					</h6>
+					<span class="text-muted d-block">Touch friendly input spinner component</span>
+				</div>
+
+				<div class="row">
+					<div class="col-md-6">
+						<div class="card">
+							<div class="card-header header-elements-inline">
+								<h5 class="card-title">Bootstrap touchspin</h5>
+								<div class="header-elements">
+									<div class="list-icons">
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="reload"></a>
+				                		<a class="list-icons-item" data-action="remove"></a>
+				                	</div>
+			                	</div>
+							</div>
+
+							<div class="card-body">
+								<p class="mb-3">Basically Touchspin uses default Bootstrap <code>input-group</code> component styling with ability to add extra classes to the buttons and addons to match your design perfectly.</p>
+
+								<div class="form-group">
+									<label>Example with postfix: </label>
+									<input type="text" value="55" class="form-control touchspin-postfix">
+								</div>
+
+								<div class="form-group">
+									<label>Example with prefix: </label>
+									<input type="text" value="0" class="form-control touchspin-prefix">
+								</div>
+
+								<div class="form-group">
+									<label>Init with empty value: </label>
+									<input type="text" value="" class="form-control touchspin-empty">
+								</div>
+
+								<div class="form-group">
+									<label>Incremental/decremental step on up/down change: </label>
+									<input type="text" value="10" class="form-control touchspin-step">
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6">
+						<div class="card">
+							<div class="card-header header-elements-inline">
+								<h5 class="card-title">Advanced spinners</h5>
+								<div class="header-elements">
+									<div class="list-icons">
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="reload"></a>
+				                		<a class="list-icons-item" data-action="remove"></a>
+				                	</div>
+			                	</div>
+							</div>
+
+							<div class="card-body">
+								<p class="mb-3">Depending on your needs, you can easily swith off mousewheel support, change steps and increments, use more complex examples with button groups and dropdowns.</p>
+
+								<div class="form-group">
+									<label>Button group example</label>
+									<div class="input-group">
+							            <input type="text" class="form-control touchspin-button-group" value="50">
+							            <div class="input-group-append">
+							                <button type="button" class="btn bg-primary">Action</button>
+							                <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown"></button>
+							                <div class="dropdown-menu dropdown-menu-right">
+							                    <a href="#" class="dropdown-item">Action</a>
+							                    <a href="#" class="dropdown-item">Another action</a>
+							                    <a href="#" class="dropdown-item">Something else here</a>
+							                    <div class="dropdown-divider"></div>
+							                    <a href="#" class="dropdown-item">Separated link</a>
+							                </div>
+							            </div>
+							        </div>
+								</div>
+
+								<div class="form-group">
+									<label>Value attribute is not set: <span class="text-muted">applying settings.initval</span></label>
+									<input type="text" value="" class="form-control touchspin-set-value">
+								</div>
+
+								<div class="form-group">
+									<label>Value is set explicitly to 33: <span class="text-muted">skipping settings.initval</span></label>
+									<input type="text" value="33" class="form-control touchspin-set-value">
+								</div>
+
+								<div class="form-group">
+									<label>No mousewheel support: </label>
+									<input type="text" value="10" class="form-control touchspin-no-mousewheel">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /touchspin spinners -->
+
+			</div>
+			<!-- /content area -->
+
+		</div>
+		<!-- /content wrapper -->
+
+	</div>
+	<!-- /page content -->
+
+</body>
+</html>

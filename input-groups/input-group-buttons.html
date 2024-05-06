@@ -1,0 +1,294 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Limitless - Responsive Web Application Kit by Eugene Kopyov</title>
+
+	<!-- Global stylesheets -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
+	<link href="../global_assets/css/icons/icomoon/styles.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/bootstrap_limitless.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/layout.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/components.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/colors.min.css" rel="stylesheet" type="text/css">
+	<!-- /global stylesheets -->
+
+	<!-- Core JS files -->
+	<script src="../global_assets/js/main/jquery.min.js"></script>
+	<script src="../global_assets/js/main/bootstrap.bundle.min.js"></script>
+	<script src="../global_assets/js/plugins/loaders/blockui.min.js"></script>
+	<!-- /core JS files -->
+
+	<!-- Theme JS files -->
+	<script src="../global_assets/js/plugins/forms/styling/uniform.min.js"></script>
+	<script src="../global_assets/js/plugins/forms/styling/switchery.min.js"></script>
+	<script src="../global_assets/js/plugins/forms/inputs/touchspin.min.js"></script>
+
+	<script src="../assets/js/app.js"></script>
+	<script src="../global_assets/js/demo_pages/form_input_groups.js"></script>
+	<!-- /theme JS files -->
+
+</head>
+
+<body>
+
+	<!-- Page content -->
+	<div class="page-content">
+
+		<!-- Main content -->
+		<div class="content-wrapper">
+
+
+			<!-- Content area -->
+			<div class="content">
+
+                <!-- Input group buttons -->
+				<div class="card">
+					<div class="card-header header-elements-inline">
+						<h5 class="card-title">Input group buttons</h5>
+						<div class="header-elements">
+							<div class="list-icons">
+		                		<a class="list-icons-item" data-action="collapse"></a>
+		                		<a class="list-icons-item" data-action="reload"></a>
+		                		<a class="list-icons-item" data-action="remove"></a>
+		                	</div>
+	                	</div>
+					</div>
+
+					<div class="card-body">
+						<p class="mb-4">Optional buttons as addons. Buttons in input groups are a bit different and require one extra level of nesting. Instead of <code>.input-group-addon</code>, you'll need to use <code>.input-group-prepend (append)</code> to wrap the buttons. Input group buttons support all available button options except sizing - all buttons height will be adjusted automatically according to the input group size.</p>
+
+						<form action="#">
+							<fieldset class="mb-3">
+								<legend class="text-uppercase font-size-sm font-weight-bold">Button addons</legend>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Left button</label>
+									<div class="col-lg-10">
+										<div class="input-group">
+											<span class="input-group-prepend">
+												<button class="btn btn-light" type="button">Button</button>
+											</span>
+											<input type="text" class="form-control" placeholder="Left button">
+										</div>
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Right button</label>
+									<div class="col-lg-10">
+										<div class="input-group">
+											<input type="text" class="form-control" placeholder="Right button">
+											<span class="input-group-append">
+												<button class="btn btn-light" type="button">Button</button>
+											</span>
+										</div>
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Left and right buttons</label>
+									<div class="col-lg-10">
+										<div class="input-group">
+											<span class="input-group-prepend">	
+												<button class="btn btn-light btn-icon" type="button"><i class="icon-user"></i></button>
+											</span>
+											<input type="text" class="form-control" placeholder="Left and right buttons">
+											<span class="input-group-append">
+												<button class="btn btn-light" type="button">Button</button>
+											</span>
+										</div>
+									</div>
+								</div>
+							</fieldset>
+
+							<fieldset class="mb-3">
+								<legend class="text-uppercase font-size-sm font-weight-bold">Button dropdown addons</legend>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Left button dropdown</label>
+									<div class="col-lg-10">
+										<div class="input-group">
+											<div class="input-group-prepend">
+												<button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown">Action</button>
+				                                <div class="dropdown-menu">
+													<a href="#" class="dropdown-item">Action</a>
+													<a href="#" class="dropdown-item">Another action</a>
+													<a href="#" class="dropdown-item">Something else here</a>
+													<a href="#" class="dropdown-item">One more line</a>
+												</div>
+											</div>
+											<input type="text" class="form-control" placeholder="Left dropdown">
+										</div>
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Right button dropdown</label>
+									<div class="col-lg-10">
+										<div class="input-group">
+											<input type="text" class="form-control" placeholder="Right dropdown">
+											<div class="input-group-append">
+												<button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown">Action</button>
+				                                <div class="dropdown-menu dropdown-menu-right">
+													<a href="#" class="dropdown-item">Action</a>
+													<a href="#" class="dropdown-item">Another action</a>
+													<a href="#" class="dropdown-item">Something else here</a>
+													<a href="#" class="dropdown-item">One more line</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Left and right button dropdowns</label>
+									<div class="col-lg-10">
+										<div class="input-group">
+											<div class="input-group-prepend">
+												<button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown">Action</button>
+				                                <div class="dropdown-menu">
+													<a href="#" class="dropdown-item">Action</a>
+													<a href="#" class="dropdown-item">Another action</a>
+													<a href="#" class="dropdown-item">Something else here</a>
+													<a href="#" class="dropdown-item">One more line</a>
+												</div>
+											</div>
+											<input type="text" class="form-control" placeholder="Left and right dropdowns">
+											<div class="input-group-append">
+												<button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown">Action</button>
+				                                <div class="dropdown-menu dropdown-menu-right">
+													<a href="#" class="dropdown-item">Action</a>
+													<a href="#" class="dropdown-item">Another action</a>
+													<a href="#" class="dropdown-item">Something else here</a>
+													<a href="#" class="dropdown-item">One more line</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</fieldset>
+
+							<fieldset class="mb-3">
+								<legend class="text-uppercase font-size-sm font-weight-bold">Segmented button addons</legend>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Left button</label>
+									<div class="col-lg-10">
+										<div class="input-group">
+											<div class="input-group-prepend">
+												<button type="button" class="btn btn-light">Action</button>
+												<button type="button" class="btn btn-light dropdown-toggle btn-icon" data-toggle="dropdown"></button>
+				                                <div class="dropdown-menu">
+													<a href="#" class="dropdown-item">Action</a>
+													<a href="#" class="dropdown-item">Another action</a>
+													<a href="#" class="dropdown-item">Something else here</a>
+													<a href="#" class="dropdown-item">One more line</a>
+												</div>
+											</div>
+											<input type="text" class="form-control" placeholder="Left buttons">
+										</div>
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Right button</label>
+									<div class="col-lg-10">
+										<div class="input-group">
+											<input type="text" class="form-control" placeholder="Right buttons">
+											<div class="input-group-append">
+												<button type="button" class="btn btn-light">Action</button>
+												<button type="button" class="btn btn-light dropdown-toggle btn-icon" data-toggle="dropdown"></button>
+
+				                                <div class="dropdown-menu dropdown-menu-right">
+													<a href="#" class="dropdown-item">Action</a>
+													<a href="#" class="dropdown-item">Another action</a>
+													<a href="#" class="dropdown-item">Something else here</a>
+													<a href="#" class="dropdown-item">One more line</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Left and right buttons</label>
+									<div class="col-lg-10">
+										<div class="input-group">
+											<div class="input-group-prepend">
+												<button type="button" class="btn btn-light">Button</button>
+												<button type="button" class="btn btn-light dropdown-toggle btn-icon" data-toggle="dropdown"></button>
+
+				                                <div class="dropdown-menu">
+													<a href="#" class="dropdown-item">Action</a>
+													<a href="#" class="dropdown-item">Another action</a>
+													<a href="#" class="dropdown-item">Something else here</a>
+													<a href="#" class="dropdown-item">One more line</a>
+												</div>
+											</div>
+
+											<input type="text" class="form-control" placeholder="Left and right buttons">
+
+											<div class="input-group-append">
+												<button type="button" class="btn btn-light btn-icon"><i class="icon-user"></i></button>
+												<button type="button" class="btn btn-light dropdown-toggle btn-icon" data-toggle="dropdown"></button>
+
+				                                <div class="dropdown-menu dropdown-menu-right">
+													<a href="#" class="dropdown-item">Action</a>
+													<a href="#" class="dropdown-item">Another action</a>
+													<a href="#" class="dropdown-item">Something else here</a>
+													<a href="#" class="dropdown-item">One more line</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</fieldset>
+
+							<fieldset>
+								<legend class="text-uppercase font-size-sm font-weight-bold">Color options</legend>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Contextual button</label>
+									<div class="col-lg-10">
+										<div class="input-group">
+											<span class="input-group-prepend">
+												<button class="btn bg-danger" type="button">Button</button>
+											</span>
+											<input type="text" class="form-control border-left-0" placeholder="Danger button">
+										</div>
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Custom color button</label>
+									<div class="col-lg-10">
+										<div class="input-group">
+											<input type="text" class="form-control border-right-0" placeholder="Teal button">
+											<span class="input-group-append">
+												<button class="btn bg-teal" type="button">Button</button>
+											</span>
+										</div>
+									</div>
+								</div>
+							</fieldset>
+						</form>
+					</div>
+				</div>
+				<!-- /input group buttons -->
+
+			</div>
+			<!-- /content area -->
+
+		</div>
+		<!-- /content wrapper -->
+
+	</div>
+	<!-- /page content -->
+
+</body>
+</html>

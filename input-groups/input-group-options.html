@@ -1,0 +1,260 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Limitless - Responsive Web Application Kit by Eugene Kopyov</title>
+
+	<!-- Global stylesheets -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
+	<link href="../global_assets/css/icons/icomoon/styles.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/bootstrap_limitless.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/layout.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/components.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/colors.min.css" rel="stylesheet" type="text/css">
+	<!-- /global stylesheets -->
+
+	<!-- Core JS files -->
+	<script src="../global_assets/js/main/jquery.min.js"></script>
+	<script src="../global_assets/js/main/bootstrap.bundle.min.js"></script>
+	<script src="../global_assets/js/plugins/loaders/blockui.min.js"></script>
+	<!-- /core JS files -->
+
+	<!-- Theme JS files -->
+	<script src="../global_assets/js/plugins/forms/styling/uniform.min.js"></script>
+	<script src="../global_assets/js/plugins/forms/styling/switchery.min.js"></script>
+	<script src="../global_assets/js/plugins/forms/inputs/touchspin.min.js"></script>
+
+	<script src="../assets/js/app.js"></script>
+	<script src="../global_assets/js/demo_pages/form_input_groups.js"></script>
+	<!-- /theme JS files -->
+
+</head>
+
+<body>
+
+	<!-- Page content -->
+	<div class="page-content">
+
+		<!-- Main content -->
+		<div class="content-wrapper">
+
+
+			<!-- Content area -->
+			<div class="content">
+
+            <!-- Input group options -->
+				<div class="card mb-4">
+					<div class="card-header header-elements-inline">
+						<h5 class="card-title">Input group options</h5>
+						<div class="header-elements">
+							<div class="list-icons">
+		                		<a class="list-icons-item" data-action="collapse"></a>
+		                		<a class="list-icons-item" data-action="reload"></a>
+		                		<a class="list-icons-item" data-action="remove"></a>
+		                	</div>
+	                	</div>
+					</div>
+
+					<div class="card-body">
+						<p class="mb-4">Besides default addon options, input groups support different variations of checkboxes, radio buttons, switches, contextual validation state options, icons in different positions. All colors can be easily changed in LESS variables, options and positions also can be mixed. However avoid using <code>&lt;select></code> elements here as they cannot be fully styled in WebKit browsers and <code>&lt;textarea></code> elements here as their rows attribute will not be respected in some cases.</p>
+
+						<form action="#">
+							<fieldset class="mb-3">
+								<legend class="text-uppercase font-size-sm font-weight-bold">Sizing options</legend>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Large input group</label>
+									<div class="col-lg-10">
+										<div class="input-group input-group-lg">
+											<span class="input-group-prepend">
+												<span class="input-group-text"><i class="icon-mention"></i></span>
+											</span>
+											<input type="text" class="form-control" placeholder=".input-group-lg">
+										</div>
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Default input group</label>
+									<div class="col-lg-10">
+										<div class="input-group">
+											<span class="input-group-prepend">
+												<span class="input-group-text"><i class="icon-git-pull-request"></i></span>
+											</span>
+											<input type="text" class="form-control" placeholder=".input-group">
+										</div>
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Small input group</label>
+									<div class="col-lg-10">
+										<div class="input-group input-group-sm">
+											<span class="input-group-prepend">
+												<span class="input-group-text"><i class="icon-statistics"></i></span>
+											</span>
+											<input type="text" class="form-control" placeholder=".input-group-sm">
+										</div>
+									</div>
+								</div>
+							</fieldset>
+
+							<fieldset class="mb-3">
+								<legend class="text-uppercase font-size-sm font-weight-bold">Validation states</legend>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2 font-weight-semibold text-success">Valid state</label>
+									<div class="col-lg-10">
+										<div class="input-group">
+											<span class="input-group-prepend">
+												<span class="input-group-text alpha-success text-success border-success"><i class="icon-comment"></i></span>
+											</span>
+											<input type="text" class="form-control border-success" placeholder="Success color classes">
+										</div>
+										<span class="form-text text-success">Success state helper</span>
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2 font-weight-semibold text-danger">Invalid state</label>
+									<div class="col-lg-10">
+										<div class="input-group">
+											<span class="input-group-prepend">
+												<span class="input-group-text alpha-danger text-danger border-danger"><i class="icon-graph"></i></span>
+											</span>
+											<input type="text" class="form-control border-danger" placeholder="Danger color classes">
+										</div>
+										<span class="form-text text-danger">Invalid state helper</span>
+									</div>
+								</div>
+
+								<div class="form-group form-group-feedback form-group-feedback-right row">
+									<label class="col-form-label col-lg-2 font-weight-semibold text-success">Valid with icon</label>
+									<div class="col-lg-10">
+										<div class="position-relative">
+											<div class="input-group">
+												<span class="input-group-prepend">
+													<span class="input-group-text alpha-success text-success border-success"><i class="icon-graduation"></i></span>
+												</span>
+												<input type="text" class="form-control border-success" placeholder="Success color classes">
+											</div>
+											<div class="form-control-feedback text-success">
+												<i class="icon-checkmark-circle"></i>
+											</div>
+										</div>
+										<span class="form-text text-success">Valid state helper</span>
+									</div>
+								</div>
+
+								<div class="form-group form-group-feedback form-group-feedback-right row">
+									<label class="col-form-label col-lg-2 font-weight-semibold text-danger">Invalid with icon</label>
+									<div class="col-lg-10">
+										<div class="position-relative">
+											<div class="input-group">
+												<span class="input-group-prepend">
+													<span class="input-group-text alpha-danger text-danger border-danger"><i class="icon-droplets"></i></span>
+												</span>
+												<input type="text" class="form-control border-danger" placeholder="Danger color classes">
+											</div>
+											<div class="form-control-feedback text-danger">
+												<i class="icon-cancel-circle2"></i>
+											</div>
+										</div>
+										<span class="form-text text-danger">Error input group helper</span>
+									</div>
+								</div>
+							</fieldset>
+
+							<fieldset>
+								<legend class="text-uppercase font-size-sm font-weight-bold">Addon options</legend>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Default checkbox</label>
+									<div class="col-lg-10">
+										<div class="input-group">
+											<span class="input-group-prepend">
+												<span class="input-group-text">
+													<input type="checkbox" checked>
+												</span>
+											</span>
+											<input type="text" class="form-control" placeholder="Default checkbox addon">
+										</div>
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Styled checkbox</label>
+									<div class="col-lg-10">
+										<div class="input-group">
+											<span class="input-group-prepend">
+												<div class="input-group-text">
+													<input type="checkbox" class="form-control-styled" name="input-addon-checkbox" checked data-fouc>
+												</div>
+											</span>
+											<input type="text" class="form-control" placeholder="Styled checkbox addon">
+										</div>
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Default radio button</label>
+									<div class="col-lg-10">
+										<div class="input-group">
+											<span class="input-group-prepend">
+												<span class="input-group-text">
+													<input type="radio" name="addon-radio">
+												</span>
+											</span>
+											<input type="text" class="form-control" placeholder="Unstyled radio addon">
+										</div>
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Styled radio button</label>
+									<div class="col-lg-10">
+										<div class="input-group">
+											<span class="input-group-prepend">
+												<div class="input-group-text">
+													<input type="radio" name="addon-radio" class="form-control-styled" checked data-fouc>
+												</div>
+											</span>
+											<input type="text" class="form-control" placeholder="Styled radio addon">
+										</div>
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Switchery toggle</label>
+									<div class="col-lg-10">
+										<div class="input-group">
+											<span class="input-group-prepend">
+												<span class="input-group-text">
+													<input type="checkbox" class="form-control-switchery" checked data-fouc>
+												</span>
+											</span>
+											<input type="text" class="form-control" placeholder="Switchery toggle addon">
+										</div>
+									</div>
+								</div>
+							</fieldset>
+						</form>
+					</div>
+				</div>
+				<!-- /input group options -->
+
+			</div>
+			<!-- /content area -->
+
+		</div>
+		<!-- /content wrapper -->
+
+	</div>
+	<!-- /page content -->
+
+</body>
+</html>
